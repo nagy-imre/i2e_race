@@ -18,7 +18,7 @@
       <Label layoutX="19.0" layoutY="102.0" text="Név" />
       <Label layoutX="10.0" layoutY="138.0" prefHeight="17.0" prefWidth="51.0" text="Születés" />
       <Label layoutX="75.0" layoutY="185.0" text="Kategória" />
-      <TextField fx:id="idField" layoutX="57.0" layoutY="63.0" />
+      <TextField fx:id="idField" disable="true" layoutX="57.0" layoutY="63.0" prefHeight="25.0" prefWidth="44.0" />
       <TextField fx:id="nameFIeld" layoutX="57.0" layoutY="98.0" />
       <DatePicker layoutX="58.0" layoutY="134.0" prefHeight="25.0" prefWidth="149.0" />
       <RadioButton id="junior" layoutX="70.0" layoutY="212.0" mnemonicParsing="false" selected="true" text="18 alatt">
